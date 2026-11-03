@@ -1,44 +1,29 @@
-# Visual Studio
+
+# Visual Studio files
 .vs/
-*.user
-*.suo
-*.userosscache
-*.sln.docstates
+**/.vs/
 
 # Build output
 **/bin/
 **/obj/
-[Dd]ebug/
-[Rr]elease/
-x64/
-x86/
-[Aa][Rr][Mm]/
-[Aa][Rr][Mm]64/
-artifacts/
 
-# Visual Studio generated files
-GeneratedFiles/
+# User-specific files
+*.user
+*.suo
 
-# .NET
-project.lock.json
-project.fragment.lock.json
-artifacts/
-*.cache
-
-# Local environment and secrets
+# Local secrets
+**/appsettings.Local.json
+**/appsettings.Development.json
+**/secrets.json
 .env
 .env.*
 !.env.example
-secrets.json
-appsettings.Local.json
 
-# User-specific local databases
+# Local Postman state
+.postman/
+
+# Local database files
 *.mdf
 *.ldf
-
-# Operating system
-.DS_Store
-Thumbs.db
-desktop.ini
-# Streamlit
-.streamlit/secrets.toml
+key.txt
+postman/

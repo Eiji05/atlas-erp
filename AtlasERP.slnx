@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="AtlasERP.API/AtlasERP.API.csproj" />
+  <Project Path="AtlasERP.Application/AtlasERP.Application.csproj" />
+  <Project Path="AtlasERP.Blazor/AtlasERP.Blazor.csproj" />
+  <Project Path="AtlasERP.Domain/AtlasERP.Domain.csproj" />
+  <Project Path="AtlasERP.Infrastructure/AtlasERP.Infrastructure.csproj" />
+</Solution>
